@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.CreatingAndStartingTasks", "ParallelProgramming\01.CreatingAndStartingTasks.csproj", "{94B7B629-1359-4AC3-AFBB-ACB9B1A8C16A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.CancellingTasks", "02.CancellingTasks\02.CancellingTasks.csproj", "{9D88855F-7575-4982-90CD-84F192897BFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.WaitingForTimeToPass", "03.WaitingForTimeToPass\03.WaitingForTimeToPass.csproj", "{4166EBAA-B227-4669-82DC-F16B66270456}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94B7B629-1359-4AC3-AFBB-ACB9B1A8C16A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94B7B629-1359-4AC3-AFBB-ACB9B1A8C16A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94B7B629-1359-4AC3-AFBB-ACB9B1A8C16A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94B7B629-1359-4AC3-AFBB-ACB9B1A8C16A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D88855F-7575-4982-90CD-84F192897BFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D88855F-7575-4982-90CD-84F192897BFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D88855F-7575-4982-90CD-84F192897BFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D88855F-7575-4982-90CD-84F192897BFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4166EBAA-B227-4669-82DC-F16B66270456}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4166EBAA-B227-4669-82DC-F16B66270456}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4166EBAA-B227-4669-82DC-F16B66270456}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4166EBAA-B227-4669-82DC-F16B66270456}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA469353-2540-45D1-B7A1-2F21C96F3DE6}
+	EndGlobalSection
+EndGlobal
