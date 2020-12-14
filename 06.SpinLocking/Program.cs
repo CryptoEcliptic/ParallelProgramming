@@ -28,6 +28,7 @@ namespace _06.SpinLocking
             var bankAccount = new BankAccount();
 
             //SpinLocking can prevent Dead locks which could appear using lock statement. The spinnlock will spin the thread until we executhe the operation and no other thrads could execute the same operation. So it will prevent race condition.
+            //Provides a mutual exclusion lock primitive where a thread trying to acquire the lock waits in a loop repeatedly checking until the lock becomes available.
             SpinLock spLocking = new SpinLock();
 
             for (int i = 0; i < 10; i++)
