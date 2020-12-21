@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09.ConcurrentDictionary", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10.ConcurrentQueueAndStack", "10.ConcurrentQueueAndStack\10.ConcurrentQueueAndStack.csproj", "{DBC5AC7C-D11F-4E68-A7C6-D97964D4D3EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.BlockingCollection", "11.BlockingCollection\11.BlockingCollection.csproj", "{8C246F3B-759B-4C53-B8FE-17CA7CFF4E58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11.BlockingCollection", "11.BlockingCollection\11.BlockingCollection.csproj", "{8C246F3B-759B-4C53-B8FE-17CA7CFF4E58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.ContinuationsAndChildTasks", "12.ContinuationsAndChildTasks\12.ContinuationsAndChildTasks.csproj", "{53A61282-ED28-4EA9-BD67-72EE0CCE0B7D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{8C246F3B-759B-4C53-B8FE-17CA7CFF4E58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C246F3B-759B-4C53-B8FE-17CA7CFF4E58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C246F3B-759B-4C53-B8FE-17CA7CFF4E58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53A61282-ED28-4EA9-BD67-72EE0CCE0B7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53A61282-ED28-4EA9-BD67-72EE0CCE0B7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53A61282-ED28-4EA9-BD67-72EE0CCE0B7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53A61282-ED28-4EA9-BD67-72EE0CCE0B7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
