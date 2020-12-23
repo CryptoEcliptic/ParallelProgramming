@@ -7,11 +7,18 @@ namespace _13.BarrierAndCountDownEvents
 {
     class Program
     {
-        //Allows multiple tasks to work on stages. The first argument is the number of the stages.
+        //Allows multiple tasks to work on stages. The first argument is the number of the participants we should wait.
         static Barrier barrier = new Barrier(2, x => 
         {
             Console.WriteLine($"Phase {x.CurrentPhaseNumber} is finished!");
         });
+
+        ////For the CountDown example
+        //private static int taskCount = 5;
+
+        ////Basically it is the same as barrier except that it is counting down and Signaling and Waiting are in separate methods
+        //static CountdownEvent cte = new CountdownEvent(taskCount);
+        //static Random random = new Random();
 
         static void Water()
         {
@@ -51,6 +58,36 @@ namespace _13.BarrierAndCountDownEvents
             {
                 ae.Handle(x => true);
             }
+            ////------------------------------------------------
+            ////Example for countDown
+            //CountDown();
+            ////------------------------------------------------
         }
+
+        //Countdown example
+        //static void CountDown()
+        //{
+        //    var tasks = new Task[taskCount];
+        //    for (int i = 0; i < taskCount; i++)
+        //    {
+        //        tasks[i] = Task.Factory.StartNew(() =>
+        //        {
+        //            Console.WriteLine($"Entering task {Task.CurrentId}.");
+        //            Thread.Sleep(random.Next(3000)); 
+        //            cte.Signal(); // also takes a signalcount
+        //                          //cte.CurrentCount/InitialCount
+        //            Console.WriteLine($"Exiting task {Task.CurrentId}.");
+        //        });
+        //    }
+
+        //    var finalTask = Task.Factory.StartNew(() =>
+        //    {
+        //        Console.WriteLine($"Waiting for other tasks in task {Task.CurrentId}");
+        //        cte.Wait();
+        //        Console.WriteLine("All tasks completed.");
+        //    });
+
+        //    finalTask.Wait();
+        //}
     }
 }
