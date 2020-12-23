@@ -1,0 +1,56 @@
+﻿using System;
+using System.Runtime.InteropServices;
+using System.Threading;
+using System.Threading.Tasks;
+
+namespace _13.BarrierAndCountDownEvents
+{
+    class Program
+    {
+        //Allows multiple tasks to work on stages. The first argument is the number of the stages.
+        static Barrier barrier = new Barrier(2, x => 
+        {
+            Console.WriteLine($"Phase {x.CurrentPhaseNumber} is finished!");
+        });
+
+        static void Water()
+        {
+            Console.WriteLine("Putting Kettle on (waiting water to boil)");
+            Thread.Sleep(2000);
+            barrier.SignalAndWait(); //1 //First stage. We wait until all threads finish with the first stage
+            Console.WriteLine("Pouring water into a cup"); //After all threads finish the first stage we execute that line
+            barrier.SignalAndWait(); // Second stage. After line above is executed we enter and wait here until all tasks complete their second stage.
+            Console.WriteLine("Putting the kettle away");
+
+        }
+
+        static void Cup()
+        {
+            Console.WriteLine("Finding a cup (fast operation)");
+            barrier.SignalAndWait(); // 1 //First stage. We wait until all threads finish with the first stage
+            Console.WriteLine("Adding tea");
+            barrier.SignalAndWait();
+            Console.WriteLine("Adding sugar");
+        }
+
+        static void Main(string[] args)
+        {
+            var water = Task.Factory.StartNew(Water);
+            var cup = Task.Factory.StartNew(Cup);
+
+            var tea = Task.Factory.ContinueWhenAll(new[] { water, cup }, x =>
+            {
+                Console.WriteLine("Enjoy your cup of tea!");
+            });
+
+            try
+            {
+                tea.Wait();
+            }
+            catch (AggregateException ae)
+            {
+                ae.Handle(x => true);
+            }
+        }
+    }
+}

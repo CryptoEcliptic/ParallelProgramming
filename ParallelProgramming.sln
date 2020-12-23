@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10.ConcurrentQueueAndStack"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11.BlockingCollection", "11.BlockingCollection\11.BlockingCollection.csproj", "{8C246F3B-759B-4C53-B8FE-17CA7CFF4E58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.ContinuationsAndChildTasks", "12.ContinuationsAndChildTasks\12.ContinuationsAndChildTasks.csproj", "{53A61282-ED28-4EA9-BD67-72EE0CCE0B7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12.ContinuationsAndChildTasks", "12.ContinuationsAndChildTasks\12.ContinuationsAndChildTasks.csproj", "{53A61282-ED28-4EA9-BD67-72EE0CCE0B7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13.BarrierAndCountDownEvents", "13.BarrierAndCountDownEvents\13.BarrierAndCountDownEvents.csproj", "{9DC45D2D-D76D-49A3-AB96-207D7EDFB1B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{53A61282-ED28-4EA9-BD67-72EE0CCE0B7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53A61282-ED28-4EA9-BD67-72EE0CCE0B7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53A61282-ED28-4EA9-BD67-72EE0CCE0B7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DC45D2D-D76D-49A3-AB96-207D7EDFB1B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DC45D2D-D76D-49A3-AB96-207D7EDFB1B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DC45D2D-D76D-49A3-AB96-207D7EDFB1B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DC45D2D-D76D-49A3-AB96-207D7EDFB1B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
