@@ -31,6 +31,30 @@ namespace _14.ManualResetEventSlimAndSemaphoreSlim
             });
 
             makeTea.Wait();
+
+
+            //Semaphore Example
+            //We have different threads that want something from the semaphore. The Semaphore is a counter which can increase and decrease
+            //The first argument is the number of the requests that could be counted concurrently
+            //The second argument is max number of requests that could be counted concurrently
+            var semaphore = new SemaphoreSlim(2, 10);
+
+            for (int i = 0; i < 20; i++)
+            {
+                Task.Factory.StartNew(() =>
+                {
+                    Console.WriteLine($"Entering task {Task.CurrentId}");
+                    semaphore.Wait(); //count-- Here we stop and wait counts to be released. 
+                    Console.WriteLine($"Processing task {Task.CurrentId}");
+                });
+            }
+
+            while (semaphore.CurrentCount <= 2)
+            {
+                Console.WriteLine($"Semaphore count: {semaphore.CurrentCount}");
+                Console.ReadKey(); //Pressing Key will release 2 counts in the semaphore and will make possible to execute two more tasks.
+                semaphore.Release(2); //count +=2 (2 counts released and available to execute tasks)
+            }
         }
     }
 }
