@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12.ContinuationsAndChildTas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13.BarrierAndCountDownEvents", "13.BarrierAndCountDownEvents\13.BarrierAndCountDownEvents.csproj", "{9DC45D2D-D76D-49A3-AB96-207D7EDFB1B1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14.ManualResetEventSlimAndSemaphoreSlim", "14.ManualResetEventSlimAndSemaphoreSlim\14.ManualResetEventSlimAndSemaphoreSlim.csproj", "{7B3EDEB5-EB52-4DB1-9913-5FC5536B3E61}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{9DC45D2D-D76D-49A3-AB96-207D7EDFB1B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DC45D2D-D76D-49A3-AB96-207D7EDFB1B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DC45D2D-D76D-49A3-AB96-207D7EDFB1B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B3EDEB5-EB52-4DB1-9913-5FC5536B3E61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B3EDEB5-EB52-4DB1-9913-5FC5536B3E61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B3EDEB5-EB52-4DB1-9913-5FC5536B3E61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B3EDEB5-EB52-4DB1-9913-5FC5536B3E61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
