@@ -27,9 +27,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11.BlockingCollection", "11
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12.ContinuationsAndChildTasks", "12.ContinuationsAndChildTasks\12.ContinuationsAndChildTasks.csproj", "{53A61282-ED28-4EA9-BD67-72EE0CCE0B7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13.BarrierAndCountDownEvents", "13.BarrierAndCountDownEvents\13.BarrierAndCountDownEvents.csproj", "{9DC45D2D-D76D-49A3-AB96-207D7EDFB1B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13.BarrierAndCountDownEvents", "13.BarrierAndCountDownEvents\13.BarrierAndCountDownEvents.csproj", "{9DC45D2D-D76D-49A3-AB96-207D7EDFB1B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14.ManualResetEventSlimAndSemaphoreSlim", "14.ManualResetEventSlimAndSemaphoreSlim\14.ManualResetEventSlimAndSemaphoreSlim.csproj", "{7B3EDEB5-EB52-4DB1-9913-5FC5536B3E61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14.ManualResetEventSlimAndSemaphoreSlim", "14.ManualResetEventSlimAndSemaphoreSlim\14.ManualResetEventSlimAndSemaphoreSlim.csproj", "{7B3EDEB5-EB52-4DB1-9913-5FC5536B3E61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.ParallelInvokeForForeach", "15.ParallelInvokeForForeach\15.ParallelInvokeForForeach.csproj", "{EC61C27F-81DF-4F94-9166-136163A1EBE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16.BreakingParralelLoops", "16.BreakingParralelLoops\16.BreakingParralelLoops.csproj", "{FEF6DCDD-4660-4DC9-BDC9-F289077F088A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +97,14 @@ Global
 		{7B3EDEB5-EB52-4DB1-9913-5FC5536B3E61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B3EDEB5-EB52-4DB1-9913-5FC5536B3E61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B3EDEB5-EB52-4DB1-9913-5FC5536B3E61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC61C27F-81DF-4F94-9166-136163A1EBE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC61C27F-81DF-4F94-9166-136163A1EBE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC61C27F-81DF-4F94-9166-136163A1EBE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC61C27F-81DF-4F94-9166-136163A1EBE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEF6DCDD-4660-4DC9-BDC9-F289077F088A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEF6DCDD-4660-4DC9-BDC9-F289077F088A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEF6DCDD-4660-4DC9-BDC9-F289077F088A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEF6DCDD-4660-4DC9-BDC9-F289077F088A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
