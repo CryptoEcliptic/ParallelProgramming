@@ -31,11 +31,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13.BarrierAndCountDownEvent
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14.ManualResetEventSlimAndSemaphoreSlim", "14.ManualResetEventSlimAndSemaphoreSlim\14.ManualResetEventSlimAndSemaphoreSlim.csproj", "{7B3EDEB5-EB52-4DB1-9913-5FC5536B3E61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.ParallelInvokeForForeach", "15.ParallelInvokeForForeach\15.ParallelInvokeForForeach.csproj", "{EC61C27F-81DF-4F94-9166-136163A1EBE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15.ParallelInvokeForForeach", "15.ParallelInvokeForForeach\15.ParallelInvokeForForeach.csproj", "{EC61C27F-81DF-4F94-9166-136163A1EBE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16.BreakingParralelLoops", "16.BreakingParralelLoops\16.BreakingParralelLoops.csproj", "{FEF6DCDD-4660-4DC9-BDC9-F289077F088A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "16.BreakingParralelLoops", "16.BreakingParralelLoops\16.BreakingParralelLoops.csproj", "{FEF6DCDD-4660-4DC9-BDC9-F289077F088A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17.ThreadLocalStorage", "17.ThreadLocalStorage\17.ThreadLocalStorage.csproj", "{93AA0C73-3108-4F9B-A608-806E683586F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "17.ThreadLocalStorage", "17.ThreadLocalStorage\17.ThreadLocalStorage.csproj", "{93AA0C73-3108-4F9B-A608-806E683586F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18.Partitioning", "18.Partitioning\18.Partitioning.csproj", "{8BFE2EAE-8902-4B64-82BE-99BA1E631D88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19.AsParallelParallelQuery", "19.AsParallelParallelQuery\19.AsParallelParallelQuery.csproj", "{340F4E78-00EA-4FA7-B125-AA5807F33C66}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +115,14 @@ Global
 		{93AA0C73-3108-4F9B-A608-806E683586F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93AA0C73-3108-4F9B-A608-806E683586F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93AA0C73-3108-4F9B-A608-806E683586F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BFE2EAE-8902-4B64-82BE-99BA1E631D88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BFE2EAE-8902-4B64-82BE-99BA1E631D88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BFE2EAE-8902-4B64-82BE-99BA1E631D88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BFE2EAE-8902-4B64-82BE-99BA1E631D88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{340F4E78-00EA-4FA7-B125-AA5807F33C66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{340F4E78-00EA-4FA7-B125-AA5807F33C66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{340F4E78-00EA-4FA7-B125-AA5807F33C66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{340F4E78-00EA-4FA7-B125-AA5807F33C66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -28,8 +28,10 @@ namespace _17.ThreadLocalStorage
               (x, state, tls) =>
               {
             //Console.WriteLine($"{Task.CurrentId}");
-            tls += x;
+            tls += x; //Adding new value to the thread local srotorage sum
                   Console.WriteLine($"Task {Task.CurrentId} has sum {tls}");
+
+                  //Returning the result of the current calculation. In that way we update the tls for the next iteration.
                   return tls;
               },
               partialSum =>
