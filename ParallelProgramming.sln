@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.ParallelInvokeForForeach
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16.BreakingParralelLoops", "16.BreakingParralelLoops\16.BreakingParralelLoops.csproj", "{FEF6DCDD-4660-4DC9-BDC9-F289077F088A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17.ThreadLocalStorage", "17.ThreadLocalStorage\17.ThreadLocalStorage.csproj", "{93AA0C73-3108-4F9B-A608-806E683586F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{FEF6DCDD-4660-4DC9-BDC9-F289077F088A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEF6DCDD-4660-4DC9-BDC9-F289077F088A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEF6DCDD-4660-4DC9-BDC9-F289077F088A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93AA0C73-3108-4F9B-A608-806E683586F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93AA0C73-3108-4F9B-A608-806E683586F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93AA0C73-3108-4F9B-A608-806E683586F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93AA0C73-3108-4F9B-A608-806E683586F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
