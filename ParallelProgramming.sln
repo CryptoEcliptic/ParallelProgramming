@@ -37,9 +37,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "16.BreakingParralelLoops", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "17.ThreadLocalStorage", "17.ThreadLocalStorage\17.ThreadLocalStorage.csproj", "{93AA0C73-3108-4F9B-A608-806E683586F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18.Partitioning", "18.Partitioning\18.Partitioning.csproj", "{8BFE2EAE-8902-4B64-82BE-99BA1E631D88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "18.Partitioning", "18.Partitioning\18.Partitioning.csproj", "{8BFE2EAE-8902-4B64-82BE-99BA1E631D88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19.AsParallelParallelQuery", "19.AsParallelParallelQuery\19.AsParallelParallelQuery.csproj", "{340F4E78-00EA-4FA7-B125-AA5807F33C66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "19.AsParallelParallelQuery", "19.AsParallelParallelQuery\19.AsParallelParallelQuery.csproj", "{340F4E78-00EA-4FA7-B125-AA5807F33C66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20.AsyncFactoryMethod", "20.AsyncFactoryMethod\20.AsyncFactoryMethod.csproj", "{8C36C4D4-14DE-4595-B340-E7CF9F28F1B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21.AsyncInitializationPattern", "21.AsyncInitializationPattern\21.AsyncInitializationPattern.csproj", "{BA5A9905-9A26-4621-BAE6-2545B11CAF4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +127,14 @@ Global
 		{340F4E78-00EA-4FA7-B125-AA5807F33C66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{340F4E78-00EA-4FA7-B125-AA5807F33C66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{340F4E78-00EA-4FA7-B125-AA5807F33C66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C36C4D4-14DE-4595-B340-E7CF9F28F1B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C36C4D4-14DE-4595-B340-E7CF9F28F1B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C36C4D4-14DE-4595-B340-E7CF9F28F1B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C36C4D4-14DE-4595-B340-E7CF9F28F1B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA5A9905-9A26-4621-BAE6-2545B11CAF4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA5A9905-9A26-4621-BAE6-2545B11CAF4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA5A9905-9A26-4621-BAE6-2545B11CAF4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA5A9905-9A26-4621-BAE6-2545B11CAF4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
